@@ -1,0 +1,156 @@
+body {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 0;
+}
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(90, 86, 86);
+}
+
+body p,
+div {
+  font-family: sans-serif;
+}
+
+/*-------nav bar -----*/
+
+.nav-bar {
+  margin-top: 10px;
+}
+.navbar {
+  position: fixed;
+  width: 70%;
+  height: 50px;
+  z-index: 1;
+  background-color: white;
+}
+.sidenav {
+  margin: 0;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  background-color: white;
+}
+.sidenav a {
+  padding: 9px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+.sidenav a:hover {
+  background-color: rgb(221, 216, 216);
+}
+.open-nav {
+  margin-top: 10px;
+}
+.nav-right {
+  display: inline;
+  float: right;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(32, 30, 30);
+}
+.nav-center {
+  display: inline;
+  float: right;
+  font-size: 30px;
+  text-decoration: none;
+  padding-right: 40%;
+  color: rgb(32, 30, 30);
+}
+
+/*------------food------------*/
+
+.food {
+  margin-top: 80px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  width: 30%;
+}
+
+.row {
+  display: flex;
+}
+/*--------------number----------*/
+.num {
+  text-align: center;
+}
+.numbers {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.num a:hover {
+  color: white;
+  background-color: black;
+}
+.first-numbers {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
+div a:hover {
+  background-color: gray;
+}
+/*-------about ------*/
+
+.about {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.link {
+  color: rgb(90, 86, 86);
+}
+.img {
+  margin: 0 2%;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+/*-----------------footer------------*/
+
+.container {
+  width: 100%;
+  height: auto;
+}
+.text h4 {
+  margin: 0px;
+  margin-top: 3%;
+  margin-left: 5px;
+  margin-right: 40px;
+  padding-left: 3%;
+}
+.tag {
+  padding: 0 8px;
+}
+.tags {
+  color: white;
+  background-color: rgb(109, 99, 99);
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
